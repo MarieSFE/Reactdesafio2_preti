@@ -1,5 +1,6 @@
 import logoImg from "./img/coderhouse.jpg";
 import NavBar from "./components/NavBar/NavBar";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 // Importamos ItemListContainer y lo renderizamos
 import "./app.css";
 
@@ -17,7 +18,7 @@ function App() {
         <h1 style={stylesH1}>Bienvenidos a mi app</h1>
         <img alt="logo coder" src={logoImg} />
         <hr />
-        {/*  <ItemListContaier prop /> */}
+        <ItemListContaier prop />
       </header>
     </div>
   );
